@@ -1,13 +1,40 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  position: relative;
+}
+
+.backgroundHome {
+  width: 100%;
+  height: 50vh;
+  background: url("./assets/home.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.backgroundAbout {
+  width: 100%;
+  height: 50vh;
+  background: url("./assets/about.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.backgroundPrivacy {
+  width: 100%;
+  height: 50vh;
+  background: url("./assets/privacy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
