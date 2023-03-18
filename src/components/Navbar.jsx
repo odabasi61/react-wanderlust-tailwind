@@ -50,28 +50,28 @@ const Navbar = () => {
             <ul className="flex flex-col mt-4 rounded-lg bg-green-200/80 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent">
               <Link
                 to={"/"}
-                className="flex gap-1 items-center py-2 pl-3 pr-4 text-green-800 md:text-green-500 font-bold rounded hover:bg-green-300 md:p-2 duration-500"
+                className="flex gap-1 items-center py-2 pl-3 pr-4 text-green-800 md:text-green-500 font-bold rounded hover:bg-green-100 md:p-2 duration-500"
               >
                 <AiOutlineHome />
                 <span aria-current="page">Home</span>
               </Link>
               <Link
                 to={"services"}
-                className="flex gap-1 items-center py-2 pl-3 pr-4 text-green-800 md:text-green-500 font-bold rounded hover:bg-green-300 md:border-0 md:p-2 duration-500"
+                className="flex gap-1 items-center py-2 pl-3 pr-4 text-green-800 md:text-green-500 font-bold rounded hover:bg-green-100 md:border-0 md:p-2 duration-500"
               >
                 <AiOutlineInfoCircle />
                 <span>Services</span>
               </Link>
               <Link
                 to={"pricing"}
-                className="flex gap-1 items-center py-2 pl-3 pr-4 text-green-800 md:text-green-500 font-bold rounded hover:bg-green-300 md:border-0 md:p-2 duration-500"
+                className="flex gap-1 items-center py-2 pl-3 pr-4 text-green-800 md:text-green-500 font-bold rounded hover:bg-green-100 md:border-0 md:p-2 duration-500"
               >
                 <MdOutlinePriceChange />
                 <span>Pricing</span>
               </Link>
               <Link
                 to={"contact"}
-                className="flex gap-1 items-center py-2 pl-3 pr-4 text-green-800 md:text-green-500 font-bold rounded hover:bg-green-300 md:border-0 md:p-2 duration-500 "
+                className="flex gap-1 items-center py-2 pl-3 pr-4 text-green-800 md:text-green-500 font-bold rounded hover:bg-green-100 md:border-0 md:p-2 duration-500 "
               >
                 <AiOutlineContacts />
                 <span>Contact</span>
