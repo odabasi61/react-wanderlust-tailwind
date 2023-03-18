@@ -4,13 +4,7 @@ import island from "../assets/island.png";
 const About = () => {
   return (
     <div>
-      <div className="backgroundAbout">
-        <div className="flex justify-center pt-48">
-          <h2 className="inline text-xl md:text-2xl lg:text-3xl xl:text-4xl text-green-500 bg-white/70 py-2 px-3 rounded-lg">
-            About Us
-          </h2>
-        </div>
-      </div>
+      <div className="backgroundAbout"></div>
       <div className="p-8">
         <h2 className="py-8 px-4 font-bold text-xl md:text-2xl lg:text-3xl">
           About Us

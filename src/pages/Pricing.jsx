@@ -1,6 +1,7 @@
 import sea from "../assets/sea.jpg";
 import jungle from "../assets/jungle.jpg";
 import snow from "../assets/snow.jpg";
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
   return (
@@ -11,7 +12,7 @@ const Pricing = () => {
           OUR TOUR CATEGORIES
         </h2>
         <div className=" flex flex-wrap gap-6 justify-center">
-          <div className="card shadow-xl rounded-lg overflow-hidden w-72 bg-white">
+          <div className="card shadow-xl rounded-lg overflow-hidden w-72 bg-white hover:-translate-y-2 duration-300">
             <div className="image relative">
               <img className="img" src={sea} alt="sea side" />
               <div className="absolute bottom-10 right-0 text-right pr-4 text-lg">
@@ -37,7 +38,7 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div className="card shadow-xl rounded-lg overflow-hidden w-72 bg-white">
+          <div className="card shadow-xl rounded-lg overflow-hidden w-72 bg-white hover:-translate-y-2 duration-300">
             <div className="image relative">
               <img className="img" src={jungle} alt="sea side" />
               <div className="absolute bottom-10 right-0 text-right pr-4 text-lg">
@@ -63,7 +64,7 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div className="card shadow-xl rounded-lg overflow-hidden w-72 bg-white">
+          <div className="card shadow-xl rounded-lg overflow-hidden w-72 bg-white hover:-translate-y-2 duration-300">
             <div className="image relative">
               <img className="img" src={snow} alt="sea side" />
               <div className="absolute bottom-10 right-0 text-right pr-4 text-lg">
@@ -89,7 +90,12 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <p className="text-center py-4">
+        <Link to={"destinations"} className="flex justify-center pt-8">
+          <button className="bg-green-500 rounded-full py-2 px-4 text-white hover:bg-white hover:text-green-500 outline duration-300">
+            Discover All Tours
+          </button>
+        </Link>
+        <p className="text-center pt-8">
           <span>
             <strong>Note:</strong>
           </span>{" "}

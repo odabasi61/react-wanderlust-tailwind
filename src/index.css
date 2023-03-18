@@ -14,44 +14,50 @@ body {
 
 .backgroundHome {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background: url("./assets/home.jpg") no-repeat center center/cover;
 }
 
 .backgroundAbout {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background: url("./assets/about.jpg") no-repeat center center/cover;
 }
 
 .backgroundPrivacy {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background: url("./assets/privacy.jpg") no-repeat center center/cover;
 }
 
 .backgroundSupport {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background: url("./assets/support.jpg") no-repeat center center/cover;
 }
 
 .backgroundService {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background: url("./assets/service.jpg") no-repeat center center/cover;
 }
 
 .backgroundContact {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background: url("./assets/contact.jpg") no-repeat center center/cover;
 }
 
 .backgroundPrice {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   background: url("./assets/price.jpg") no-repeat center center/cover;
+}
+
+.backgroundDestination {
+  width: 100%;
+  height: 60vh;
+  background: url("./assets/destination.jpg") no-repeat center center/cover;
 }
 
 .img {

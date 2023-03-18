@@ -10,9 +10,9 @@ const Footer = () => {
   return (
     <div className="bg-black px-4">
       <div className="flex justify-center pt-12">
-        <GiPalmTree size={80} style={{ color: "green" }} />
+        <GiPalmTree size={80} className="text-green-600" />
       </div>
-      <h3 className="text-green-400 text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl py-6  font-bold">
+      <h3 className="text-green-600 text-center text-xl md:text-2xl lg:text-3xl xl:text-4xl py-6  font-bold">
         Wonderlust
       </h3>
       <div className="flex flex-col md:flex-row justify-between text-white text-center">
