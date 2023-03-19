@@ -2,6 +2,7 @@ import sea from "../assets/sea.jpg";
 import jungle from "../assets/jungle.jpg";
 import snow from "../assets/snow.jpg";
 import { Link } from "react-router-dom";
+// import { Link, Navigate } from "react-router-dom";
 
 const Pricing = () => {
   return (
@@ -90,7 +91,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <Link to={"destinations"} className="flex justify-center pt-8">
+        <Link to={"/destinations"} className="flex justify-center pt-8">
           <button className="bg-green-500 rounded-full py-2 px-4 text-white hover:bg-white hover:text-green-500 outline duration-300">
             Discover All Tours
           </button>

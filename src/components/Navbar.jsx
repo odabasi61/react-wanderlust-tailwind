@@ -5,7 +5,7 @@ import {
   AiOutlineInfoCircle,
   AiOutlineContacts,
 } from "react-icons/ai";
-import { MdOutlinePriceChange } from "react-icons/md";
+import { MdOutlinePriceChange, MdMap } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -54,6 +54,13 @@ const Navbar = () => {
               >
                 <AiOutlineHome />
                 <span aria-current="page">Home</span>
+              </Link>
+              <Link
+                to={"destinations"}
+                className="flex gap-1 items-center py-2 pl-3 pr-4 text-green-800 md:text-green-500 font-bold rounded hover:bg-green-100 md:border-0 md:p-2 duration-500"
+              >
+                <MdMap />
+                <span>Destinations</span>
               </Link>
               <Link
                 to={"services"}

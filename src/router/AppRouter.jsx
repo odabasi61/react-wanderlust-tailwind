@@ -10,6 +10,7 @@ import About from "../pages/About";
 import Privacy from "../pages/Privacy";
 import Support from "../pages/Support";
 import Destinations from "../pages/Destinations";
+import CityDetail from "../pages/CityDetail";
 
 const AppRouter = () => {
   return (
@@ -25,6 +26,7 @@ const AppRouter = () => {
           <Route path="privacy" element={<Privacy />} />
           <Route path="support" element={<Support />} />
           <Route path="destinations" element={<Destinations />} />
+          <Route path="destinations/:id" element={<CityDetail />} />
         </Routes>
         <Footer />
       </BrowserRouter>
