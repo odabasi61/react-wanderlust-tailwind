@@ -32,7 +32,7 @@ const Footer = () => {
             </Link>
           </ul>
         </div>
-        <div className="flex flex-col">
+        <div>
           <div className="p-4 border-t">
             <p>
               copyrigths &copy; {new Date().getFullYear()},{" "}
@@ -44,29 +44,30 @@ const Footer = () => {
               </Link>
             </p>
           </div>
-          <div>
-            <ul className="flex gap-4 p-4 justify-center">
-              <Link to={"https://github.com/odabasi61"}>
-                <AiOutlineGithub
-                  size={30}
-                  className="hover:scale-105 hover:text-green-500 duration-500"
-                />
-              </Link>
-              <Link to={"https://www.linkedin.com/in/ali-odaba%C5%9F%C4%B1/"}>
-                <AiOutlineLinkedin
-                  size={30}
-                  className="hover:scale-105 hover:text-green-500 duration-500"
-                />
-              </Link>
-              <Link to={"https://www.instagram.com/aliodabas_a/"}>
-                <AiOutlineInstagram
-                  size={30}
-                  className="hover:scale-105 hover:text-green-500 duration-500"
-                />
-              </Link>
-            </ul>
-          </div>
         </div>
+      </div>
+
+      <div className="text-white">
+        <ul className="flex gap-4 p-4 md:p-8 justify-center">
+          <Link to={"https://github.com/odabasi61"}>
+            <AiOutlineGithub
+              size={40}
+              className="hover:scale-105 hover:text-green-500 duration-500"
+            />
+          </Link>
+          <Link to={"https://www.linkedin.com/in/ali-odaba%C5%9F%C4%B1/"}>
+            <AiOutlineLinkedin
+              size={40}
+              className="hover:scale-105 hover:text-green-500 duration-500"
+            />
+          </Link>
+          <Link to={"https://www.instagram.com/aliodabas_a/"}>
+            <AiOutlineInstagram
+              size={40}
+              className="hover:scale-105 hover:text-green-500 duration-500"
+            />
+          </Link>
+        </ul>
       </div>
     </div>
   );

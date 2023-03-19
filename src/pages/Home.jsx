@@ -63,21 +63,21 @@ const Home = () => {
             <div className="images relative flex flex-col md:flex-row gap-2 justify-center">
               <div>
                 <img
-                  className="lg:absolute lg:top-0 lg:left-40 rounded-lg hover:scale-105 hover:z-10 duration-200 m-auto"
+                  className="lg:absolute lg:top-0 lg:left-32 rounded-lg hover:scale-105 hover:z-10 duration-200 m-auto"
                   src={nat1}
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  className="lg:absolute lg:top-10 lg:left-56 rounded-lg hover:scale-105 hover:z-10 duration-200 m-auto"
+                  className="lg:absolute lg:top-10 lg:left-40 rounded-lg hover:scale-105 hover:z-10 duration-200 m-auto"
                   src={nat2}
                   alt=""
                 />
               </div>
               <div>
                 <img
-                  className="lg:absolute lg:top-16 lg:left-24 rounded-lg hover:scale-105 hover:z-10 duration-200 m-auto"
+                  className="lg:absolute lg:top-16 lg:left-20 rounded-lg hover:scale-105 hover:z-10 duration-200 m-auto"
                   src={nat3}
                   alt=""
                 />
