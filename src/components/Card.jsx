@@ -10,7 +10,7 @@ const Card = ({ id, title, desc, image }) => {
       onClick={() => navigate(`/destinations/${id}`)}
       className="cities p-4 bg-gray-200 rounded-lg shadow-xl overflow-hidden relative cursor-pointer"
     >
-      <p className="py-3 font-bold text-xl md:text-2xl">{title}</p>
+      <p className="py-3 font-bold text-green-600 text-xl md:text-2xl">{title}</p>
       <div>
         <img
           className="w-full h-[400px] md:w-[400px] md:h-[350px] object-cover rounded-lg"

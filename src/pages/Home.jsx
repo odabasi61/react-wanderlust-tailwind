@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import nat1 from "../assets/nat-1.jpg";
 import nat2 from "../assets/nat-2.jpg";
 import nat3 from "../assets/nat-3.jpg";
+import explore from '../assets/explore.png';
 import { BiWorld, BiCompass, BiMapAlt, BiHeart } from "react-icons/bi";
 
 const Home = () => {
@@ -154,7 +155,25 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="p-6 md:p-12"></div>
+      <div className="p-6 md:p-12">
+      <div className="flex flex-col lg:flex-row items-center gap-4 rounded-lg shadow-xl bg-gray-100 p-4">
+          <div className=" w-full lg:w-2/5 xl:w-1/3">
+            <img src={explore} alt="mountain" className="w-96 m-auto" />
+          </div>
+          <div className="w-full lg:w-3/5 xl:w-2/3 text-center">
+            <h2 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl text-green-500 py-4">EXPLORE THE WILD AND CHARMING NATURE</h2>
+            <p>
+            Exploring a beautiful landscape can be an exhilarating experience that invigorates the senses and lifts the soul. The natural beauty of the terrain can stimulate the imagination and inspire creativity. As you journey through the landscape, you may encounter breathtaking vistas, pristine lakes, and vibrant flora and fauna. The fresh air and the gentle rustling of leaves can calm the mind and soothe the spirit, providing a welcome respite from the hustle and bustle of everyday life. Whether you're hiking, biking, or simply taking a leisurely stroll, exploring a scenic landscape is a wonderful way to reconnect with nature and rejuvenate your body and mind.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <Link to={"destinations"} className="flex w-fit m-auto mb-10">
+          <button className="bg-green-500 rounded-full py-2 px-4 font-bold text-white hover:bg-white hover:text-green-500 outline duration-300">
+            Discover All Tours
+          </button>
+        </Link>
     </div>
   );
 };
