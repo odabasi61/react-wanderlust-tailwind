@@ -8,7 +8,7 @@ const Card = ({ id, title, desc, image }) => {
     <div
       type="button"
       onClick={() => navigate(`/destinations/${id}`)}
-      className="cities p-4 bg-gray-200 rounded-lg shadow-xl overflow-hidden relative"
+      className="cities p-4 bg-gray-200 rounded-lg shadow-xl overflow-hidden relative cursor-pointer"
     >
       <p className="py-3 font-bold text-xl md:text-2xl">{title}</p>
       <div>
