@@ -7,6 +7,6 @@ I used:
 - React-router-dom
 - React icons
 
-https://illustrious-mermaid-d8f70a.netlify.app/
+https://dashing-banoffee-ba6a52.netlify.app/
 
 ![wander](https://user-images.githubusercontent.com/114237174/226258392-d07e63c1-03dc-4f57-9352-6fff93575ffc.png)
