@@ -18,7 +18,7 @@ const Navbar = () => {
               style={{ color: "green", marginRight: ".5rem" }}
             />
             <span className="self-center text-xl font-semibold whitespace-nowrap text-green-500 dark:text-white">
-              Wonderlust
+              Wanderlust
             </span>
           </Link>
           <button

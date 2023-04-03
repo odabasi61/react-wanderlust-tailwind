@@ -28,23 +28,42 @@ const CityDetail = () => {
       </div>
       <div className="p-6 md:p-12 flex justify-center">
         <div className="w-4/5 sm:w-1/2 lg:w-1/3 bg-gray-200 rounded-xl p-4 sm:p-6 md:p-8">
-          <div className="flex justify-between">
-          <p><strong>Accommodation:</strong></p><span>{data[id - 1].accommodation}</span>
+          <div className="flex justify-between border-b border-black">
+            <p>
+              <strong>Accommodation:</strong>
+            </p>
+            <span>{data[id - 1].accommodation}</span>
           </div>
-          <div className="flex justify-between">
-          <p><strong>Difficulty:</strong></p><span>{data[id - 1].difficulty}</span>
+          <div className="flex justify-between pt-2 border-b border-black">
+            <p>
+              <strong>Difficulty:</strong>
+            </p>
+            <span>{data[id - 1].difficulty}</span>
           </div>
-          <div className="flex justify-between">
-          <p><strong>Guide:</strong></p><span>{data[id - 1].guide}</span></div> 
-          <div className="flex justify-between">
-          <p><strong>Group:</strong></p><span>{data[id - 1].people}</span>
+          <div className="flex justify-between pt-2 border-b border-black">
+            <p>
+              <strong>Guide:</strong>
+            </p>
+            <span>{data[id - 1].guide}</span>
           </div>
-          <div className="flex justify-between">
-          <p><strong>Period:</strong></p><span>{data[id - 1].day}</span>
-         </div>
-          <div className="flex justify-between">
-          <p><strong>Price:</strong></p><span>{data[id - 1].price}</span>
-          </div>         
+          <div className="flex justify-between pt-2 border-b border-black">
+            <p>
+              <strong>Group:</strong>
+            </p>
+            <span>{data[id - 1].people}</span>
+          </div>
+          <div className="flex justify-between pt-2 border-b border-black">
+            <p>
+              <strong>Period:</strong>
+            </p>
+            <span>{data[id - 1].day}</span>
+          </div>
+          <div className="flex justify-between pt-2 border-b border-black">
+            <p>
+              <strong>Price:</strong>
+            </p>
+            <span>{data[id - 1].price}</span>
+          </div>
         </div>
       </div>
       <div className="flex justify-center gap-4 py-4">
